@@ -1,7 +1,7 @@
 export default {
-    name: 'setname',
-    type: 'owner',
-    desc: 'change name bot',
+    name: 'CW',
+    type: 'CWr',
+    desc: '`Chaneedyou',
     example: 'Ghost?\n\nExample : %prefix%command Hisoka Morrou',
     execute: async({ m }) => {
         let text = m.hasQuotedMsg && !m.text ? m.quoted.body : m.text
