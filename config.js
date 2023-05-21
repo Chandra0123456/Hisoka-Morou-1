@@ -10,8 +10,8 @@ global.commands = new Collection()
 
 // limit
 global.limit = {
-	free: 25,
-	premium: 250,
+	free: 2500,
+	premium: 250000,
 	VIP: "Infinity",
 	download: {
 		free: 30000000, // use byte
